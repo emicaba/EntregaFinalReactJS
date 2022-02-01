@@ -1,0 +1,4 @@
+*{margin: 0px; padding: 0px;}
+
+.productos{display: flex; flex-direction: column; text-align: center;}
+img{height: 200px; width: 160px; padding-left: 550px }

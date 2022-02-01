@@ -1,3 +1,5 @@
+import CustomizedBadges from '../CartWidget/CartWidget.js'
+import './NavBar.css'
 const NavBar = () => {
     return(
         <div className="menu">
@@ -22,6 +24,7 @@ const NavBar = () => {
                 <input type="text" placeholder="Serch"></input>
                 <button className="butSerch">Serch</button>
             </div>
+            <CustomizedBadges />
         </div>
     );
 }
