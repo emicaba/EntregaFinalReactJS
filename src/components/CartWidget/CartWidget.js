@@ -3,7 +3,7 @@ import Badge from '@mui/material/Badge';
 import IconButton from '@mui/material/IconButton';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
-const CustomizedBadges = () => {
+const CartWidget = () => {
   return (
     <IconButton aria-label="cart">
       <Badge badgeContent={4} color="secondary" anchorOrigin={{
@@ -16,4 +16,4 @@ const CustomizedBadges = () => {
   );
 };
 
-export default CustomizedBadges
+export default CartWidget

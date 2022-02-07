@@ -6,7 +6,7 @@ function App() {
   return (
    <>
    <NavBar />
-   <Productos resma="Autor A4" resma2="Oficio" />
+   <Productos greeting="Greeting" />
 
    </>
   );
