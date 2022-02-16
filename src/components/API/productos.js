@@ -3,6 +3,7 @@ const Products = [
         id:1,
         title:"Autor A4",
         price:500,
+        description:"resmas A4 con un gramaje de 80 gr",
         pictureUrl:"https://http2.mlstatic.com/D_NQ_NP_690787-MLA31032341375_062019-W.jpg"
     },
     {
