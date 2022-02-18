@@ -1,23 +1,18 @@
 import { useEffect, useState } from "react";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import Products from '../API/productos';
-
+import customFetch from "../ItemListContainer/customFetch";
+import { useParams } from "react-router-dom";
 
 const ItemDetailContainer = () => {
     const [products, setProducts] = useState([])
+    const {idItem} = useParams();
+
       useEffect(() => {
-        new Promise((resolve,reject) => {
-            setTimeout(() => {
-                if(true){
-                    resolve(true);
-                } else {
-                    reject("KO")
-                }
-            }, 2000);
-            })
-        .then(() => setProducts(Products[0]))
-        .catch((error) => console.log(error))
-             }, [])
+        customFetch(2000, Products.filter(item => item.id === parseInt(idItem)))
+            .then((result)=> setProducts(result))
+            .catch(err => alert("ERROR"));
+             }, [idItem])
              return(
                  <div>
                     <ItemDetail

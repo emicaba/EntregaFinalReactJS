@@ -24,7 +24,7 @@ div ul li{
   font-size: 20px;
 }
 
-div ul li a{
+.categorias{
   text-decoration: none;
   color: white;
   font-family:'Ubuntu', sans-serif; font-weight:100 ;
@@ -45,9 +45,10 @@ input{
   border-width: 1px;
   border-color:rgb(0, 132, 255);
 }
-h1 a{
+.logo{
   font-family:'Ubuntu', sans-serif; font-weight: 400;
   text-decoration: none;
   color: purple;
-  font-size: 35px;
+  font-size: 15px;
+  margin: 5px;
 }

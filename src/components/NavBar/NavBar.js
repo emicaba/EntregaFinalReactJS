@@ -1,23 +1,15 @@
 import CustomizedBadges from '../CartWidget/CartWidget.js'
 import './NavBar.css'
+import { Link } from 'react-router-dom';
 const NavBar = () => {
     return(
         <div className="menu">
-            <h1><a href="/index">Gea Trader</a></h1>
+            <Link to='/' className='logo'><h1>Gea Trader</h1></Link>
             <div>
                 <ul className="listaNav">
-                    <li>
-                        <a href="/index">Home</a>
-                    </li>
-                    <li>
-                        <a href="/index">Products</a>
-                    </li>
-                    <li>
-                        <a href="/index">About us</a>
-                    </li>
-                    <li>
-                        <a href="/index">Contact</a>
-                    </li>
+                    <Link to='/category/1' className='categorias'><li>Autor</li></Link>
+                    <Link to='/category/2' className='categorias'><li>Punax</li></Link>
+                    <Link to='/' className='categorias'><li>Contacto</li></Link>
                 </ul>
             </div>
             <div>
