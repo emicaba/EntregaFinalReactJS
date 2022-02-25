@@ -1,4 +1,4 @@
-import CustomizedBadges from '../CartWidget/CartWidget.js'
+import CustomizedBadges from './CartWidget/CartWidget.js'
 import './NavBar.css'
 import { Link } from 'react-router-dom';
 const NavBar = () => {

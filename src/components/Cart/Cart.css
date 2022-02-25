@@ -3,4 +3,9 @@
     border-radius: 6px;
     border-color: rgb(0, 132, 255);
     margin-bottom: 10px;
-};
+    margin-top: 10px
+}
+.cart{display: flex; margin: 50px;}
+.carrito1{ text-align: center;
+}
+.cart2{margin: 20px; margin-left: 100px; margin-right: 100px;}
