@@ -16,7 +16,7 @@ const NavBar = () => {
                 <input type="text" placeholder="Serch"></input>
                 <button className="butSerch">Serch</button>
             </div>
-            <CustomizedBadges />
+            <Link to="./cart"> <CustomizedBadges /></Link>
         </div>
     );
 }

@@ -9,6 +9,7 @@ import { CartContext } from '../../Cart/CartContext';
 const ItemDetail = (props)=>{
     const [itemCount, setItemCount] = useState(0)
     const test = useContext(CartContext)
+
     const onAdd = (counter) => {
         alert("seleccionaste " + counter + " productos");
         setItemCount(counter);

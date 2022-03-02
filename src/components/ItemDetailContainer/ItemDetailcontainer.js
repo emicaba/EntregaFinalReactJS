@@ -13,6 +13,7 @@ const ItemDetailContainer = () => {
             .then((result)=> setProducts(result))
             .catch(err => alert("ERROR"));
              }, [idItem])
+
              return(
                  <div>
                     <ItemDetail

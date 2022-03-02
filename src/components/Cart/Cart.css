@@ -9,3 +9,17 @@
 .carrito1{ text-align: center;
 }
 .cart2{margin: 20px; margin-left: 100px; margin-right: 100px;}
+.seguirComprando{background-color: purple;
+    color: white;
+    width: 170px;
+    height:35px;
+    border-radius: 6px;
+    border-color:purple ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;}
+.preciosFinales{
+margin-left: 60%;
+font-size: 50px;
+}

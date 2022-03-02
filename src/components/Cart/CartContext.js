@@ -5,6 +5,7 @@ export const CartContext = createContext();
 const CartContextProvider = ({children}) => {
 
     const [cartList, setCartList] = useState([]);
+
     const addToCart = (props, counter) => {
         if (isInCart(props.id)) {
             setCartList(prevState => {
@@ -38,8 +39,25 @@ const isInCart = (id) => {
     if (cartList.find((i) => i.id === id)) return true
     return false
 }
+
+const totalItem = (id) => {
+    let total = cartList.map(item => item.id).indexOf(id);
+    return cartList[total].price * cartList[total].qty
+}
+
+const totales = () => {
+    let totales2 = cartList.map(item => totalItem(item.id));
+    return totales2.reduce((previousValue, currentValue) => previousValue + currentValue);
+}
+const impuestos = () => {
+    return totales() * 0.21;
+}
+
+const totalFinal = () => {
+    return totales() + impuestos();
+}
     return(
-<CartContext.Provider value={{cartList, addToCart, removeItem, clear, isInCart}}>
+<CartContext.Provider value={{cartList, addToCart, removeItem, clear, isInCart,  totales, totalFinal, impuestos}}>
     {children}
 </CartContext.Provider>
 
