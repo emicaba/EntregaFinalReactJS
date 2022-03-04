@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import ItemList from './ItemList/ItemList';
 import './ItemListContainer.css';
 import { useParams } from 'react-router-dom';
-import customFetch from './customFetch'
-const {Products} = require('../API/productos.js');
+import db from '../../firebaseConfig';
+import { collection, getDocs } from "firebase/firestore";
 
 const ItemListContainer = () =>{
 
@@ -11,15 +11,16 @@ const [products, setProducts] = useState([]);
 const {idCategory} = useParams();
 
 useEffect(()=> {
-    if(idCategory === undefined){
-        customFetch(2000, Products)
-            .then(result=> setProducts(result))
-            .catch(err => alert("ERROR"));
-    } else{
-        customFetch(2000, Products.filter(item => item.categoryId === parseInt(idCategory)))
-            .then((result)=> setProducts(result))
-            .catch(err => alert("ERROR"));
-    }
+    const firestoreFetch = async () => {
+        const querySnapshot = await getDocs(collection(db, "products"));
+        return querySnapshot.docs.map( document => ({
+            id: document.id,
+            ...document.data()
+        }))
+        }
+firestoreFetch()
+.then(result => setProducts(result))
+.catch(error => console.log(error));
 }, [idCategory]);
 
 return(
@@ -28,4 +29,4 @@ return(
 </div>  );
 };
 
-export default ItemListContainer
+export default ItemListContainer;
