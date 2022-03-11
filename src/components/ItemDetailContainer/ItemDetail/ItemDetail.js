@@ -20,6 +20,7 @@ const ItemDetail = (props)=>{
     <h1>{props.title}</h1>
     <h1>precio: {props.price}</h1>
     <h1>Descripcion: {props.description}</h1>
+    <h1>Stock: {props.stock}</h1>
     <img src={props.pictureUrl} alt={props.title} ></img>
         {
             itemCount === 0

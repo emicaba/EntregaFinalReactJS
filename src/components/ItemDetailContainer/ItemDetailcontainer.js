@@ -34,6 +34,7 @@ const ItemDetailContainer = () => {
                     price = {products.price}
                     description = {products.description}
                     pictureUrl = {products.pictureUrl}
+                    stock = {products.stock}
                     />
                  </div>
              )
