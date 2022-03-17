@@ -45,8 +45,13 @@ const Cart = () => {
     return(
         <>
             <div className="carrito1">
-                <h1>TU CARRITO</h1>
-                <button onClick={test.clear} className="cartButton">Borrar carrito</button>
+                {test.cartList.length > 0 ?
+                    <h1>TU CARRITO</h1>:
+                    <h1>TU CARRITO ESTA VACIO</h1>}
+                {
+                    test.cartList.length > 0 &&
+                    <button onClick={test.clear} className="cartButton">Borrar carrito</button>
+                    }
             </div>
             <Link to="/"><button className="seguirComprando">Seguir comprando</button></Link>
             {
