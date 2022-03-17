@@ -19,7 +19,7 @@ useEffect(()=> {
         }))
         }
 firestoreFetch()
-.then(result => setProducts(result))
+.then(result => setProducts(result.filter(item => item.categoryId === parseInt(idCategory))))
 .catch(error => console.log(error));
 }, [idCategory]);
 
