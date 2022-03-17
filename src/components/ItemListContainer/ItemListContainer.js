@@ -11,6 +11,7 @@ const [products, setProducts] = useState([]);
 const {idCategory} = useParams();
 
 useEffect(()=> {
+
     const firestoreFetch = async () => {
         const querySnapshot = await getDocs(collection(db, "products"));
         return querySnapshot.docs.map( document => ({
@@ -18,9 +19,16 @@ useEffect(()=> {
             ...document.data()
         }))
         }
+
+if(idCategory === undefined){
+    firestoreFetch()
+.then(result => setProducts(result))
+.catch(error => console.log(error))
+}else{
 firestoreFetch()
 .then(result => setProducts(result.filter(item => item.categoryId === parseInt(idCategory))))
 .catch(error => console.log(error));
+}
 }, [idCategory]);
 
 return(
