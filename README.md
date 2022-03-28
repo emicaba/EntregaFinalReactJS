@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Ecommerce GEA Trader
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_Esta pagina es un Ecommerce de una distribuidora de resmas de papel. La misma se llama GEA Trader y tiene 3 marcas a la venta (Boreal, Autor y Punax)_
 
-## Available Scripts
+## Comenzando 🚀
 
-In the project directory, you can run:
+_Deberas forkear este proyecto si quieres tener una copia en tu propio repositorio de GitHub y si lo que deseas es tener una copia en tu ordenador deberas bajar el archivo ZIP_
 
-### `npm start`
+## Deployment 📦
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+_Para ver la pagina debes ingresar al siguiente link _
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Construido con 🛠️
 
-### `npm test`
+_Las herramientas que utilice para crear mi proyecto fueron:_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [React JS]
+* [HTML]
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Autor ✒️
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_La pagina fue creada y diseñada por_
 
-### `npm run eject`
+* **Emiliano Cabaña** - *Idea y desarrollo* - [EmilianoCabaña](https://github.com/emicaba)
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Licencia 📄
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este proyecto está para compartir y mejorar
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Expresiones de Gratitud 🎁
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Agradezco a Coder House, mi profesor, mi tutor y mi mujer por el apoyo y el seguimiento
