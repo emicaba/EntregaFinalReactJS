@@ -3,7 +3,7 @@ import { CartContext } from "./CartContext";
 import './Cart.css'
 import { Link } from "react-router-dom";
 import { serverTimestamp, collection, setDoc, doc, updateDoc, increment } from "firebase/firestore";
-import db from "../../firebaseConfig";
+import db from "../../utils/firebaseConfig";
 
 const Cart = () => {
 
