@@ -7,14 +7,10 @@ const NavBar = () => {
             <Link to='/' className='logo'><h1>Gea Trader</h1></Link>
             <div>
                 <ul className="listaNav">
-                    <Link to='/category/1' className='categorias'><li>Autor</li></Link>
-                    <Link to='/category/2' className='categorias'><li>Punax</li></Link>
-                    <Link to='/' className='categorias'><li>Contacto</li></Link>
+                    <Link to='/category/1' className='categorias'><li className='subtitulos'>Autor</li></Link>
+                    <Link to='/category/2' className='categorias'><li className='subtitulos'>Punax</li></Link>
+                    <Link to='/category/3' className='categorias'><li className='subtitulos'>Boreal</li></Link>
                 </ul>
-            </div>
-            <div>
-                <input type="text" placeholder="Serch"></input>
-                <button className="butSerch">Serch</button>
             </div>
             <Link to="./cart"> <CustomizedBadges /></Link>
         </div>

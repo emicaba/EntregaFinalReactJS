@@ -8,7 +8,7 @@
 .cart{display: flex; margin: 50px;}
 .carrito1{ text-align: center;
 }
-.cart2{margin: 20px; margin-left: 100px; margin-right: 100px;}
+.cart2{margin: 20px; margin-left: 100px; margin-right: 100px; border: 3px;}
 .seguirComprando{background-color: purple;
     color: white;
     width: 170px;

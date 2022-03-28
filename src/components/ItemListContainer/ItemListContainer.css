@@ -2,8 +2,8 @@
 
 .productos{display: flex; flex-direction: column; text-align: center;}
 img {width: 200px; height: 200px;}
-.flex{display: flex; flex-direction: row;}
-.card{margin: 20px;}
+.flex{display: flex; flex-direction: row; flex-wrap: wrap;}
+.card{margin: 70px;}
 .butVerMas{  background-color: rgb(0, 132, 255);
     color: white; width: 170px;
     border-radius: 6px;

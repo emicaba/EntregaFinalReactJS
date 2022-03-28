@@ -63,6 +63,7 @@ const Cart = () => {
                                 <h2 className="cart2">Producto: {item.title}</h2>
                                 <h2 className="cart2">Cantidad: {item.qty}</h2>
                                 <h2 className="cart2">Precio: {item.price}</h2>
+                                <h2 className="cart2">Subtotal: {item.price * item.qty}</h2>
                             </div>
                         <button className="cartButton" onClick={() => test.removeItem(item.id)}>Eliminar producto</button>
                     </div>
