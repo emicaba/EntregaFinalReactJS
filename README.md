@@ -15,6 +15,7 @@ _Para ver la pagina debes ingresar al siguiente link _
 _Las herramientas que utilice para crear mi proyecto fueron:_
 
 * [React JS]
+* [CSS]
 * [HTML]
 
 
