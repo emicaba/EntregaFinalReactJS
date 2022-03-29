@@ -8,7 +8,7 @@ _Deberas forkear este proyecto si quieres tener una copia en tu propio repositor
 
 ## Deployment 📦
 
-_Para ver la pagina debes ingresar al siguiente link _
+_Para ver la pagina debes ingresar al siguiente link: https://emicaba.github.io/proyecto_final/_
 
 ## Construido con 🛠️
 
