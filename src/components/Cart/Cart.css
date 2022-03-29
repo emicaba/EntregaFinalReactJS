@@ -3,11 +3,19 @@
     border-radius: 6px;
     border-color: rgb(0, 132, 255);
     margin-bottom: 10px;
-    margin-top: 10px
+    margin-top: 10px;
+    margin-left: 600px;
+}
+.cartButton2{background-color: rgb(0, 132, 255);
+    color: white; width: 170px;
+    border-radius: 6px;
+    border-color: rgb(0, 132, 255);
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .cart{display: flex; margin: 50px;}
-.carrito1{ text-align: center;
-}
+.carrito1{ text-align: center; height: 100px;}
+.carritoVacio{text-align: center; height: 500px;}
 .cart2{margin: 20px; margin-left: 100px; margin-right: 100px; border: 3px;}
 .seguirComprando{background-color: purple;
     color: white;

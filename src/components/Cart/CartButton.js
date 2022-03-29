@@ -2,8 +2,10 @@ import "./Cart.css";
 
 const CartButton = () =>{
     return(
-        <button className="cartButton">Ir al carrito</button>
-
+        <div>
+            <br/>
+            <button className="cartButton2">Ir al carrito</button>
+        </div>
     );
 };
 

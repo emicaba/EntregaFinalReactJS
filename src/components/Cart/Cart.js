@@ -44,10 +44,12 @@ const Cart = () => {
 
     return(
         <>
-            <div className="carrito1">
+            <div>
                 {test.cartList.length > 0 ?
-                    <h1>TU CARRITO</h1>:
-                    <h1>TU CARRITO ESTA VACIO</h1>}
+                    <h1 className="carrito1">TU CARRITO</h1>:
+                    <div className="carritoVacio">
+                        <h1>TU CARRITO ESTA VACIO</h1>
+                    </div>}
                 {
                     test.cartList.length > 0 &&
                     <button onClick={test.clear} className="cartButton">Borrar carrito</button>
@@ -65,7 +67,7 @@ const Cart = () => {
                                 <h2 className="cart2">Precio: {item.price}</h2>
                                 <h2 className="cart2">Subtotal: {item.price * item.qty}</h2>
                             </div>
-                        <button className="cartButton" onClick={() => test.removeItem(item.id)}>Eliminar producto</button>
+                        <button className="cartButton2" onClick={() => test.removeItem(item.id)}>Eliminar producto</button>
                     </div>
 
         ))}
